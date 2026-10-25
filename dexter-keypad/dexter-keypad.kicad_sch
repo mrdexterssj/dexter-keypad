@@ -2124,25 +2124,31 @@
 		(at 186.69 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b8974c0-0628-4983-ac47-a1ed8210a6c5")
+		(uuid "00aad7c6-a86a-4eac-b570-c683aa513a08")
 	)
 	(junction
 		(at 158.75 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ec777fa-d75b-41cd-92c7-f819cf1b6b0f")
+		(uuid "18370c6b-1bea-403e-9039-16ca0187203c")
 	)
 	(junction
-		(at 186.69 153.67)
+		(at 151.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47cdf76d-03a9-42b6-b825-e50361c9d930")
+		(uuid "47f6c248-d5d2-4e84-9e27-6f3911cccf61")
 	)
 	(junction
 		(at 158.75 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "731b0367-10f0-4d91-81cf-82f4563dcbe5")
+		(uuid "7e7d937d-c698-4b64-8d89-c4feced35a5a")
+	)
+	(junction
+		(at 186.69 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abd9c15a-bf1c-4a5e-8d29-638dfc0f11f4")
 	)
 	(junction
 		(at 140.97 60.96)
@@ -2164,7 +2170,7 @@
 	)
 	(no_connect
 		(at 194.31 143.51)
-		(uuid "f70272f8-f832-4ddf-8635-9077ba34f34e")
+		(uuid "866273de-1e00-4437-9fb9-88b6fd79501d")
 	)
 	(wire
 		(pts
@@ -2175,6 +2181,16 @@
 			(type default)
 		)
 		(uuid "002e020a-19a2-4e6e-86df-5948259e5596")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028e7566-5483-488f-b07c-c6bd721c755e")
 	)
 	(wire
 		(pts
@@ -2198,6 +2214,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 55.88) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faf044b-e748-4528-bb6b-e26ad0695bfd")
+	)
+	(wire
+		(pts
 			(xy 205.74 93.98) (xy 215.9 93.98)
 		)
 		(stroke
@@ -2205,26 +2231,6 @@
 			(type default)
 		)
 		(uuid "0fda286b-0878-4295-ab4c-36d4adff41a3")
-	)
-	(wire
-		(pts
-			(xy 125.73 105.41) (xy 134.62 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b03f2c-2fc7-45b0-8f64-5c84c3985535")
-	)
-	(wire
-		(pts
-			(xy 186.69 133.35) (xy 186.69 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "137ebe6d-de40-4dbb-9aa0-1d3617f36d71")
 	)
 	(wire
 		(pts
@@ -2248,63 +2254,53 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 153.67) (xy 158.75 153.67)
+			(xy 130.81 151.13) (xy 130.81 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fde27d5-9d99-4483-b9a1-a7902276adcd")
+		(uuid "287c771b-ff87-4b6f-a801-d9e1bd8acd25")
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 134.62 97.79)
+			(xy 186.69 153.67) (xy 186.69 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2839c200-c0aa-4bd3-b8bc-cdabc44f14ed")
+		(uuid "34766e69-023f-498b-9729-f64bc9adc266")
 	)
 	(wire
 		(pts
-			(xy 116.84 143.51) (xy 123.19 143.51)
+			(xy 130.81 133.35) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c5ac21e-77e7-458a-95a6-d18f7cefc6b2")
+		(uuid "392d3e47-14db-473e-8222-0d1f180acf2c")
 	)
 	(wire
 		(pts
-			(xy 125.73 102.87) (xy 134.62 102.87)
+			(xy 158.75 133.35) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3109cf11-d542-48de-867d-077f49203884")
+		(uuid "3c03b15b-eaeb-4895-a07e-5038082848e1")
 	)
 	(wire
 		(pts
-			(xy 125.73 100.33) (xy 134.62 100.33)
+			(xy 186.69 135.89) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "388a2ba2-4878-4c93-b6ae-0029a9809817")
-	)
-	(wire
-		(pts
-			(xy 170.18 105.41) (xy 173.99 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40caa2a1-2b06-4f86-8fe3-ba3ac97b31d8")
+		(uuid "3f597134-5a93-43c7-ac99-ddbf02991e38")
 	)
 	(wire
 		(pts
@@ -2318,13 +2314,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 95.25) (xy 173.99 95.25)
+			(xy 186.69 133.35) (xy 158.75 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a55033b-7d56-439c-9e3f-f46250e779e9")
+		(uuid "4522996e-ee4f-443a-95ae-3bbe61b2814b")
 	)
 	(wire
 		(pts
@@ -2335,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "52603ba6-ee03-4e33-b907-c14a22ea5c18")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580db11f-5cff-447b-a558-e9c8126d35b8")
 	)
 	(wire
 		(pts
@@ -2354,37 +2360,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5fd53dcd-14de-458f-bac6-21a6fe7e0e8a")
+		(uuid "6b7afb61-29a8-49e5-b2bb-b8893b6dad52")
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 173.99 87.63)
+			(xy 170.18 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6278a6a4-3e0d-421a-879e-c912fd439492")
-	)
-	(wire
-		(pts
-			(xy 125.73 95.25) (xy 134.62 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f2e522-31aa-4c20-a982-25b50f10f39f")
-	)
-	(wire
-		(pts
-			(xy 130.81 133.35) (xy 158.75 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b1bb565-ba25-4e2b-928f-6ffafaa65109")
+		(uuid "6bcff294-a2db-4866-be30-64a81ca369ed")
 	)
 	(wire
 		(pts
@@ -2398,16 +2384,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 92.71) (xy 173.99 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e258953-cffb-4b2b-bc40-f02789442c08")
-	)
-	(wire
-		(pts
 			(xy 158.75 153.67) (xy 158.75 151.13)
 		)
 		(stroke
@@ -2418,33 +2394,73 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 143.51) (xy 179.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd4aa52-f77b-4a10-9c80-0777039a6325")
+	)
+	(wire
+		(pts
+			(xy 115.57 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73856c42-8c4e-4cc0-bbc8-aef8c665060f")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7746e5e7-7b3f-4dc6-86ff-080015d844fb")
+	)
+	(wire
+		(pts
+			(xy 186.69 153.67) (xy 186.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77838a0d-308e-41e9-9fb4-30336209d35b")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a615322-b5c6-4333-ba64-f1d845639ef2")
+	)
+	(wire
+		(pts
+			(xy 115.57 105.41) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca7e845-d8ce-4c70-9a16-b6441b629017")
+	)
+	(wire
+		(pts
 			(xy 186.69 130.81) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "706b355b-62e3-4a27-8cbb-9e84d05f7dad")
-	)
-	(wire
-		(pts
-			(xy 138.43 143.51) (xy 151.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718d896a-f5ca-49a3-8330-0237e5712f10")
-	)
-	(wire
-		(pts
-			(xy 158.75 133.35) (xy 186.69 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75019671-21ff-4074-90e4-892530383d6e")
+		(uuid "7cbb52a1-3c62-4aa9-8b31-b239eb9ee926")
 	)
 	(wire
 		(pts
@@ -2465,16 +2481,6 @@
 			(type default)
 		)
 		(uuid "809e8ce6-69c7-4f02-b5f3-e0c6ff742dc6")
-	)
-	(wire
-		(pts
-			(xy 186.69 153.67) (xy 186.69 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ffdf45-5739-41ec-a431-d2aa7dbfa994")
 	)
 	(wire
 		(pts
@@ -2558,16 +2564,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 151.13) (xy 130.81 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2a25539-56e0-4148-8107-c98cb0c3cdc4")
-	)
-	(wire
-		(pts
 			(xy 140.97 60.96) (xy 151.13 60.96)
 		)
 		(stroke
@@ -2575,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "ac7960b8-5586-4135-bb36-1ad41480bd87")
+	)
+	(wire
+		(pts
+			(xy 115.57 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7e0802-e45f-4ad6-88fd-3d7cdd76fe83")
 	)
 	(wire
 		(pts
@@ -2588,13 +2594,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 130.81 133.35)
+			(xy 158.75 153.67) (xy 186.69 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7532a2d-0eee-4b50-aaa7-b950ec71348f")
+		(uuid "b203f3ef-825e-40a6-9490-c464373fe6aa")
+	)
+	(wire
+		(pts
+			(xy 170.18 102.87) (xy 173.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b2b8f1-8014-4b4d-b8ab-c5136cf8d224")
 	)
 	(wire
 		(pts
@@ -2608,13 +2624,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 143.51) (xy 179.07 143.51)
+			(xy 170.18 90.17) (xy 173.99 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4a6e395-5088-46fa-88d5-8f4ba19cbd0d")
+		(uuid "b83acd2a-ab11-42f6-badc-49090a2dc792")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84ccf66-2f82-4ac6-b34a-011a9752d093")
 	)
 	(wire
 		(pts
@@ -2628,16 +2654,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 151.13) (xy 186.69 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ac49c1-fbc3-4472-bcc7-8f89b46f3f9f")
-	)
-	(wire
-		(pts
 			(xy 83.82 80.01) (xy 87.63 80.01)
 		)
 		(stroke
@@ -2645,6 +2661,16 @@
 			(type default)
 		)
 		(uuid "dddbd6c5-abc3-4989-aeda-166e4adfb4bd")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b41c7e-b4d7-428d-977f-0fdd2bd72b44")
 	)
 	(wire
 		(pts
@@ -2658,13 +2684,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 173.99 90.17)
+			(xy 130.81 153.67) (xy 158.75 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eff4d87b-d810-4664-9e6c-edb0bbe6f379")
+		(uuid "f013749b-33d1-494f-b976-67b024431c7f")
+	)
+	(wire
+		(pts
+			(xy 116.84 143.51) (xy 123.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2792bc9-890c-4b1b-aec2-9cd36801b9f2")
 	)
 	(wire
 		(pts
@@ -2675,16 +2711,6 @@
 			(type default)
 		)
 		(uuid "f463152b-18d4-4b87-b43d-cca561517758")
-	)
-	(wire
-		(pts
-			(xy 158.75 153.67) (xy 186.69 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82704a4-d047-4e39-a8f7-56ca67b676b2")
 	)
 	(wire
 		(pts
@@ -2706,8 +2732,28 @@
 		)
 		(uuid "f97e2546-0877-4b29-bbb7-b5248dfd6ab2")
 	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 173.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4c34ca-4f50-4d38-92ae-7f1bedb6e5e5")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd339492-c95b-466b-a59a-f8d2b12dd837")
+	)
 	(label "ENC1_B"
-		(at 173.99 95.25 0)
+		(at 115.57 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2727,7 +2773,7 @@
 		(uuid "1110669d-79e2-4e1e-ba8d-cfc6578b143f")
 	)
 	(label "TOUCH3"
-		(at 125.73 100.33 0)
+		(at 173.99 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2797,7 +2843,7 @@
 		(uuid "55b9319e-34b1-4025-8647-cf078296599b")
 	)
 	(label "TOUCH4"
-		(at 125.73 102.87 0)
+		(at 173.99 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,7 +2853,7 @@
 		(uuid "5637d64b-2011-4b10-ac65-c9b1686cff3e")
 	)
 	(label "TOUCH5"
-		(at 125.73 105.41 0)
+		(at 173.99 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2817,7 +2863,7 @@
 		(uuid "5b29c76b-e460-45d3-850d-eb3c870f9617")
 	)
 	(label "ENC1_A"
-		(at 173.99 92.71 0)
+		(at 115.57 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2837,7 +2883,7 @@
 		(uuid "5fd581e8-9bed-4685-8969-9a6337551b75")
 	)
 	(label "TOUCH2"
-		(at 125.73 97.79 0)
+		(at 173.99 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,7 +2893,7 @@
 		(uuid "67c7d085-c690-4397-8b99-8ad4ee6e2196")
 	)
 	(label "LED"
-		(at 173.99 97.79 0)
+		(at 115.57 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2857,7 +2903,7 @@
 		(uuid "8849fbc4-b162-4867-adba-5bbd305f3905")
 	)
 	(label "TOUCH6"
-		(at 173.99 87.63 0)
+		(at 173.99 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2896,6 +2942,26 @@
 		)
 		(uuid "b0703384-9b56-4a52-96a8-1dd5dbb871a3")
 	)
+	(label "SWITCH_RENCODER"
+		(at 163.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b34ce085-4cfc-4e17-9444-5b795a6ecd23")
+	)
+	(label "SWITCH_RENCODER"
+		(at 115.57 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6679fae-676b-4275-8df3-3280bb7efcfb")
+	)
 	(label "TOUCH6"
 		(at 205.74 101.6 0)
 		(effects
@@ -2907,7 +2973,7 @@
 		(uuid "bbe4c759-d3aa-44b7-9710-bcce1570eb5a")
 	)
 	(label "TOUCH1"
-		(at 125.73 95.25 0)
+		(at 173.99 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,7 +3023,7 @@
 		(uuid "e42a6b29-ae13-40e2-b527-f5e37b129019")
 	)
 	(label "SWITCH3"
-		(at 173.99 105.41 0)
+		(at 115.57 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3232,7 +3298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Hackclub Footprints:Kailh Choc Low-Profile Switches"
 			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3282,7 +3348,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI-E")
-		(at 130.81 143.51 0)
+		(at 186.69 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3293,7 +3359,7 @@
 		(fields_autoplaced yes)
 		(uuid "87eeccbf-8dee-43a9-80b6-349c32124c29")
 		(property "Reference" "D1"
-			(at 144.78 137.0898 0)
+			(at 200.66 137.0898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3303,7 +3369,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 144.78 139.6298 0)
+			(at 200.66 139.6298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3313,7 +3379,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 132.08 151.13 0)
+			(at 187.96 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 133.35 153.035 0)
+			(at 189.23 153.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,7 +3403,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Hackclub Footprints:Kailh Choc Low-Profile Switches"
 			(at 78.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3482,7 +3548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libdexter:Capacitive_Keys"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3712,94 +3778,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
-		(at 186.69 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bacc8afb-b2be-409c-bcb8-37434f36473d")
-		(property "Reference" "D3"
-			(at 200.66 137.0898 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 200.66 139.6298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 187.96 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 189.23 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 186.69 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "40042cd2-7b80-449f-a0ae-ae92961c18d2")
-		)
-		(pin "2"
-			(uuid "1c764600-4287-4f0d-a578-6e0ea1f5113c")
-		)
-		(pin "1"
-			(uuid "3751e7d1-9a18-4dfe-9ab3-36d4475d6d89")
-		)
-		(pin "4"
-			(uuid "97363464-7c5b-4d91-b39e-72d992275075")
-		)
-		(instances
-			(project "dexter-keypad"
-				(path "/447d81c8-6af6-4da1-b869-091857ac204b"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 151.13 53.34 0)
 		(unit 1)
@@ -3831,7 +3809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 147.32 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -4178,6 +4156,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 130.81 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd2c0cee-1c86-4369-9c21-1ccd8ac3d52c")
+		(property "Reference" "D3"
+			(at 144.78 137.0898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 144.78 139.6298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 133.35 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 130.81 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e022ae54-28ec-4241-83af-fc34419f812e")
+		)
+		(pin "2"
+			(uuid "89ca280b-1e6b-4995-a540-ab38f8a5998b")
+		)
+		(pin "1"
+			(uuid "6d533d23-cda1-4bfb-8ceb-b4aae8763c28")
+		)
+		(pin "4"
+			(uuid "c10751b4-1d25-410f-a024-121e638125ff")
+		)
+		(instances
+			(project "dexter-keypad"
+				(path "/447d81c8-6af6-4da1-b869-091857ac204b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 176.53 80.01 0)
 		(unit 1)
@@ -4365,7 +4431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Hackclub Footprints:Kailh Choc Low-Profile Switches"
 			(at 78.74 87.63 0)
 			(hide yes)
 			(show_name no)
