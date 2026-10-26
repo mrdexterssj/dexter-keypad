@@ -1,6 +1,5 @@
 # Dexter keypad
-<img width="621" height="379" alt="image" src="https://github.com/user-attachments/assets/0b1340b5-28a4-476c-b697-0a2712076ea5" />
-
+<img width="622" height="398" alt="image" src="https://github.com/user-attachments/assets/f43a280f-f489-4f97-a5ca-b62bb068769a" />
 
 This is a custom keypad built based on Half Life's Week 3 starter project by [KaiPereira](https://github.com/KaiPereira), with some edits by me!
 
