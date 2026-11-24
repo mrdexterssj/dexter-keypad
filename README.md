@@ -52,7 +52,7 @@ Back render
 
 PCB Layout
 
-<img width="349" height="373" alt="image" src="https://github.com/user-attachments/assets/b85df704-11d1-444a-9e5c-5c75bd283d82" />
+<img width="349" height="373" alt="schematic" src="https://github.com/user-attachments/assets/b85df704-11d1-444a-9e5c-5c75bd283d82" />
 
 Schematic
 
